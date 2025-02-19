@@ -8,7 +8,7 @@ llama-index-embeddings-fastembed
 fastembed
 llama-index-llms-gemini
 llama-index-embeddings-gemini
-
+streamlit
 python-poppler
 pytesseract
 pinecone
@@ -17,5 +17,7 @@ pinecone-client[grpc]
 langchain_experimental
 langchain_openai
 faiss-cpu
-streamlit
+
+poppler-utils
 python-poppler
+pdf2image
