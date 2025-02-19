@@ -17,3 +17,5 @@ pinecone-client[grpc]
 langchain_experimental
 langchain_openai
 faiss-cpu
+streamlit
+python-poppler
