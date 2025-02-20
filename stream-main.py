@@ -137,7 +137,7 @@ if uploaded_file is not None and query:
             f.write(uploaded_file.getbuffer())
         
         # Convert PDF to images and perform OCR
-        convert_pdf_to_images("temp.pdf", "images", "\usr\local\bin")
+        convert_pdf_to_images("temp.pdf", "images", "\\usr\\local\\bin")
         perform_ocr_on_images("images")
         
         # Process OCR data
