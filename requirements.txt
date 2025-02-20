@@ -1,5 +1,7 @@
 llama-index==0.8.35
 langchain==0.0.330
+openai==1.2.4
+
 llama-index
 llama-index-core
 llama-index-embeddings-openai
