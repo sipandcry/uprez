@@ -1,5 +1,14 @@
-# Core dependencies with fixed versions for compatibility
 llama-index==0.8.35
+openai>=1.58.1
+
+# Compatible LangChain Versions
+langchain==0.2.1
+langchain-openai==0.3.6
+langchain-core==0.3.35
+langchain_experimental
+langchain_community
+
+# Llama Index Modules
 llama-index-core
 llama-index-embeddings-openai
 llama-index-llms-gemini
@@ -8,13 +17,6 @@ llama-index-postprocessor-flag-embedding-reranker
 llama-parse
 llama-index-embeddings-fastembed
 fastembed
-
-# OpenAI & LangChain (Ensuring Compatibility)
-openai>=1.58.1
-langchain==0.1.11
-langchain-openai>=0.2.12
-langchain_experimental
-langchain_community
 
 # Vector Database & Retrieval
 pinecone
