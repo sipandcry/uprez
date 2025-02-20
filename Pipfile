@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+llama-index = "*"
+llama-index-core = "*"
+llama-index-embeddings-openai = "*"
+llama-index-postprocessor-flag-embedding-reranker = "*"
+flagembedding = {git = "https://github.com/FlagOpen/FlagEmbedding.git"}
+llama-parse = "*"
+llama-index-embeddings-fastembed = "*"
+fastembed = "*"
+llama-index-llms-gemini = "*"
+llama-index-embeddings-gemini = "*"
+python-poppler = "*"
+pytesseract = "*"
+pinecone = "*"
+pinecone-client = {extras = ["grpc"], version = "*"}
+langchain-experimental = "*"
+langchain-openai = "*"
+faiss-cpu = "*"
+poppler-utils = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
