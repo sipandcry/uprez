@@ -1,5 +1,5 @@
 import streamlit as st
-from llama_index.core.node_parser import MarkdownElementNodeParser
+from llama_index.node_parser import MarkdownElementNodeParser
 from llama_parse import LlamaParse
 from llama_index.postprocessor.flag_embedding_reranker import FlagEmbeddingReranker
 from llama_index.embeddings.gemini import GeminiEmbedding
