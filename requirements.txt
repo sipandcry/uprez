@@ -21,3 +21,5 @@ faiss-cpu
 poppler-utils
 python-poppler
 pdf2image
+llama-index==0.8.0
+streamlit==1.28.0
