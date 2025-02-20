@@ -3,7 +3,7 @@ openai>=1.58.1
 
 # Compatible LangChain Versions
 langchain==0.2.2
-langchain-core==0.2.0  # Adjusted to be within the required range
+langchain-core==0.3.21
 langchain-openai==0.2.12
 langchain_experimental
 langchain_community
