@@ -1,14 +1,10 @@
 llama-index==0.8.35
 openai>=1.58.1
-
-# Compatible LangChain Versions
-langchain==0.2.2
-langchain-core==0.3.21
-langchain-openai==0.2.12
+langchain==0.3.0
+langchain-core==0.3.0
+langchain-openai==0.3.0
 langchain_experimental
 langchain_community
-
-# Llama Index Modules
 llama-index-core
 llama-index-embeddings-openai
 llama-index-llms-gemini
@@ -17,22 +13,14 @@ llama-index-postprocessor-flag-embedding-reranker
 llama-parse
 llama-index-embeddings-fastembed
 fastembed
-
-# Vector Database & Retrieval
 pinecone
 pinecone-client[grpc]
 faiss-cpu
-
-# PDF & OCR Processing
 poppler-utils
 python-poppler
 pdf2image
 pytesseract
 PyPDF2
 pdfplumber
-
-# Streamlit & UI Dependencies
 streamlit==1.28.0
-
-# External Libraries
 git+https://github.com/FlagOpen/FlagEmbedding.git
