@@ -2,9 +2,9 @@ llama-index==0.8.35
 openai>=1.58.1
 
 # Compatible LangChain Versions
-langchain==0.2.1
-langchain-openai==0.3.6
-langchain-core==0.3.35
+langchain==0.2.0
+langchain-core==0.2.9
+langchain-openai==0.2.12
 langchain_experimental
 langchain_community
 
